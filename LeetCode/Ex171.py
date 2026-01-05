@@ -21,5 +21,5 @@ def titleToNumber(columnTitle):
     return res
 
 
-columnTitle = "AA"
+columnTitle = "BA"
 print(titleToNumber(columnTitle))

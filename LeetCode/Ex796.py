@@ -1,4 +1,5 @@
 def rotateString(s, goal):
+    
     for x in range(len(s)):
         s = list(s)
         auxValue = len(s)-1

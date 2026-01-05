@@ -2,6 +2,7 @@ def singleNumber(nums):
     res = 0
     for x in nums:
         res ^= x
+        print(res)
 
     return res
 

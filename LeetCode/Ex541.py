@@ -3,6 +3,7 @@ def reverseStr(s, k):
     index = 0
     reverse = True
     for x in range(k, len(s), k):
+        print(x)
         if reverse:
             res.append(s[index:x][::-1])
             reverse = False
@@ -19,5 +20,5 @@ def reverseStr(s, k):
 
 
 s = "abcdefg"
-k = 4
+k = 2
 print(reverseStr(s, k))
