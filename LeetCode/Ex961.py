@@ -11,6 +11,6 @@ def repeatedNTimes(nums: List[int]) -> int:
             return nums[i]
     return nums[0]
 
-nums = [1,2,3,3]
+nums = [1,2,3,4,3,3]
 print(repeatedNTimes(nums))
 
