@@ -2,7 +2,6 @@ def maximumBeauty(items, queries):
 
     items = sorted(items, key=lambda x: x[1], reverse=True)
     output = []
-    print(items)
     for x in queries:
         max = 0
         for y in items:

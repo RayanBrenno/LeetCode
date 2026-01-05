@@ -1,6 +1,8 @@
 def addSpaces(s, spaces):
+    
     res = []
     index = 0
+    
     for x in spaces:
         res.append(s[index: x] + " ")
         index = x

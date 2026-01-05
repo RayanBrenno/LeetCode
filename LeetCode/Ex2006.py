@@ -8,6 +8,6 @@ def countKDifference(nums, k):
     return count
 
 
-nums = [1,2,2,1]
+nums = [1, 2, 2, 1]
 k = 1
 print(countKDifference(nums, k))
