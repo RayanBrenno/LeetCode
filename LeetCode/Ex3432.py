@@ -13,6 +13,6 @@ def countPartitions(self, nums: List[int]) -> int:
 
     return count
 
-# Conta o número de maneiras de particionar uma lista em dois subarrays com soma par.
+
 nums = [10,10,3,7,6]
 print(countPartitions(None, nums))
