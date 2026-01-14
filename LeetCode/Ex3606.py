@@ -1,3 +1,4 @@
+# A ideia principal foi percorrer os cupons e filtrar apenas os que são válidos, ou seja, estão ativos, pertencem a uma linha de negócio permitida e possuem um código válido. Em seguida, esses cupons são agrupados pela linha de negócio, ordenados alfabeticamente dentro de cada grupo e concatenados na ordem definida das linhas, formando a lista final.
 from typing import List
 
 
