@@ -16,5 +16,7 @@ def minBitwiseArray(self, nums: List[int]) -> List[int]:
     return ans
 
 
-nums = [2, 3, 5, 7]
+nums = [2, 3, 5, 7, 1200557]
+1200556
+1200557
 print(minBitwiseArray(None, nums)) 
