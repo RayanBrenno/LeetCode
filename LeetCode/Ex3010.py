@@ -1,3 +1,4 @@
+# A ideia é sempre garantir que o menor custo possível seja obtido escolhendo os menores valores disponíveis. Primeiro, o valor inicial obrigatório é somado à resposta. Em seguida, os demais valores são organizados em uma heap mínima para facilitar o acesso aos menores elementos, e os dois menores são retirados e somados ao custo final.
 from typing import List
 import heapq
 

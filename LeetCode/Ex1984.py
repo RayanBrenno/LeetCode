@@ -1,4 +1,4 @@
-
+# A ideia é ordenar o array para que os valores fiquem em ordem crescente e, assim, a menor diferença possível entre k elementos esteja sempre entre elementos consecutivos. Depois disso, basta analisar todas as janelas de tamanho k e calcular a diferença entre o maior e o menor valor de cada uma, retornando o menor resultado encontrado.
 from typing import List
 
 
