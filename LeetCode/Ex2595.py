@@ -2,6 +2,7 @@
 
 from typing import List
 
+
 def evenOddBit(self, n: int) -> List[int]:
     even, odd = 0, 0
     even_char = True
@@ -15,6 +16,16 @@ def evenOddBit(self, n: int) -> List[int]:
         n >>= 1
 
     return [even, odd]
+
+    # aux = list(bin(n)[::-1][0:-2])
+    # even, odd = 0, 0
+    # for x in range(len(aux)):
+    #     if aux[x] == "1":
+    #         if x % 2 == 0:
+    #            even += 1
+    #         else:
+    #             odd += 1
+    # return [even, odd]
 
 
 n = 17
