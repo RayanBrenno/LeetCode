@@ -1,6 +1,5 @@
 from typing import List
 
-
 def numEquivDominoPairs(dominoes: List[List[int]]) -> int:
     dic = {}
 
@@ -16,8 +15,6 @@ def numEquivDominoPairs(dominoes: List[List[int]]) -> int:
         s = x*(x-1)//2
         res += s
     return res
-
-
 
 
 dominoes = [[1, 2], [1,2],[1,1],[1,2],[2,2]]
