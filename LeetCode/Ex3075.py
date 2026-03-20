@@ -1,3 +1,5 @@
+# Esse código resolve o problema escolhendo, de forma gulosa, as k maiores felicidades possíveis. Primeiro, ele ordena a lista happiness em ordem decrescente, garantindo que os maiores valores venham primeiro. Em seguida, percorre os k primeiros elementos e, para cada um, considera que a felicidade diminui conforme a ordem de escolha, ou seja, o valor efetivo vira happiness[x] - x. Se esse valor ficar negativo, ele interrompe o processo, pois não vale mais a pena continuar. Caso contrário, vai somando esses valores ao resultado final. No fim, retorna a soma máxima de felicidade possível. O trecho comentado com heap faz a mesma lógica usando fila de prioridade, mas a versão com ordenação é mais simples e eficiente.
+
 import heapq
 from git import List
 

@@ -1,3 +1,5 @@
+# Esse código percorre a matriz analisando todas as submatrizes possíveis de tamanho k x k. Para cada posição, ele extrai os elementos dessa submatriz, coloca em uma lista e ordena os valores. Em seguida, busca a menor diferença absoluta entre dois números distintos comparando apenas elementos consecutivos da lista ordenada, já que a menor diferença sempre aparece entre vizinhos. Valores iguais são ignorados e, se a diferença mínima chegar a 1, a busca é interrompida antecipadamente por ser o menor valor possível. Se alguma diferença válida for encontrada, ela é armazenada na matriz de resposta na posição correspondente; caso contrário, permanece 0. Ao final, o algoritmo retorna a matriz contendo, para cada submatriz, a menor diferença entre seus elementos distintos.
+
 from typing import List
 
 
